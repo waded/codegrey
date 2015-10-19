@@ -1,7 +1,7 @@
 var app = require("express")();
 
 app.use("/:code", function(req, res) {
-  res.set('X-Powered-By', 'codegrey');
+  res.set("X-Powered-By", "codegrey");
   res.status(req.params.code);
   res.send(req.params.code + "'d!");
 });
