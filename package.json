@@ -1,0 +1,11 @@
+{ 
+  "name" : "codegrey", 
+  "description" : "Get any HTTP status code you want. GET /{code}",
+  "author" : "Wade Dorrell <wade@dorrells.org>",
+  "dependencies": { 
+  	"express": "4.x"
+  },
+  "version" : "0.0.1",
+  "engines": { "node": "0.10.x"},
+  "scripts": { "start":"node codegrey.js" }
+}
